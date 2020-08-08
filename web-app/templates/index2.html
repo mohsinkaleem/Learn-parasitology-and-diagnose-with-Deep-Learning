@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>File Upload</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+  <h1>jQuery Example</h1>
+  <div class="container">
+    <form action="{{url_for('index')}}" enctype="multipart/form-data">
+      <!-- <label for="image">upload ur image</label> -->
+      <!-- <input type="file" name="image" multiple id="img"> -->
+      <input type="text" name="name" id="name">
+      <input type="email" name="email" id="email">
+
+      <button type="submit" class="btn btn-primary">
+        Submit
+      </button>
+    </form>
+  </div>
+  <div id="msg"></div>
+
+</body>
+<script>
+  // $(document).ready(function () {
+  //   $('form').on('submit', function (event) {
+  //     $.ajax({
+  //       data: {
+  //         name: $("#name").val(),
+  //         email: $("#email").val()
+  //       },
+  //       type: "POST",
+  //       url: './'
+  //     })
+  //   .done(function (data) {
+  //     if (data.error) {
+  //       $("#errorAlert").text(data.error).show();
+
+  //     }
+  //     else {
+  //       $("successAlert").text(data).show();
+  //     }
+
+  //   });
+  // event.preventDefault();
+
+  //   });
+  // });
+  $(function(){
+	$('button').click(function(){
+		var user = $('#name').val();
+		var pass = $('#email').val();
+    console.log(user)
+    event.preventDefault();
+		$.ajax({
+			url: '/res',
+			data: $('form').serialize(),
+			type: 'POST',
+			success: function(response){
+        console.log(response);
+        $("#msg").text(response.name+" "+response.email);
+        
+      
+			},
+			error: function(error){
+				$("#msg").text(error.error);
+			}
+		});
+	});
+});
+</script>
+
+
+
+</html>

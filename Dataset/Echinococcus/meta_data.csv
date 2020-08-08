@@ -1,0 +1,17 @@
+,phylum,class,genus,species,Form,Sample,image_name,image_url
+0,Flatworm,Tapeworms,Echinococcus,Echinococcus granulosus,Cyst,Liver,Eg_cyst,https://www.cdc.gov//dpdx/echinococcosis/images/1/Eg_cyst.jpg
+1,Flatworm,Tapeworms,Echinococcus,Echinococcus granulosus,Cyst,Liver,Eg_cyst5,https://www.cdc.gov//dpdx/echinococcosis/images/1/Eg_cyst5.jpg
+2,Flatworm,Tapeworms,Echinococcus,Echinococcus granulosus,Cyst,Liver,Echinococcus_hydatidsand_A.jpg,https://www.cdc.gov//dpdx/echinococcosis/images/1/Echinococcus_hydatidsand_A.jpg
+3,Flatworm,Tapeworms,Echinococcus,Echinococcus granulosus,Cyst,Liver,Echinococcus_hydatidsand_B.jpg,https://www.cdc.gov//dpdx/echinococcosis/images/1/Echinococcus_hydatidsand_B.jpg
+4,Flatworm,Tapeworms,Echinococcus,Echinococcus granulosus,Cyst,Liver,EchinococcusCellNetix_A.jpg,https://www.cdc.gov//dpdx/echinococcosis/images/2/EchinococcusCellNetix_A.jpg
+5,Flatworm,Tapeworms,Echinococcus,Echinococcus granulosus,Cyst,Liver,EchinococcusCellNetix_B.jpg,https://www.cdc.gov//dpdx/echinococcosis/images/2/EchinococcusCellNetix_B.jpg
+6,Flatworm,Tapeworms,Echinococcus,Echinococcus granulosus,Cyst,Liver,EchinococcusCellNetix_C.jpg,https://www.cdc.gov//dpdx/echinococcosis/images/2/EchinococcusCellNetix_C.jpg
+7,Flatworm,Tapeworms,Echinococcus,Echinococcus granulosus,Cyst,Liver,EchinococcusCellNetix_D.jpg,https://www.cdc.gov//dpdx/echinococcosis/images/2/EchinococcusCellNetix_D.jpg
+8,Flatworm,Tapeworms,Echinococcus,Echinococcus granulosus,Cyst,Liver,EchinococcusCellNetix_E.jpg,https://www.cdc.gov//dpdx/echinococcosis/images/2/EchinococcusCellNetix_E.jpg
+9,Flatworm,Tapeworms,Echinococcus,Echinococcus granulosus,Cyst,Liver,EchinococcusCellNetix_F.jpg,https://www.cdc.gov//dpdx/echinococcosis/images/2/EchinococcusCellNetix_F.jpg
+10,Flatworm,Tapeworms,Echinococcus,Echinococcus multilocularis,Cyst,Liver,Emultilocularis_liver_BAM1.jpg,https://www.cdc.gov//dpdx/echinococcosis/images/3/Emultilocularis_liver_BAM1.jpg
+11,Flatworm,Tapeworms,Echinococcus,Echinococcus multilocularis,Cyst,Liver,Emultilocularis_liver_BAM2.jpg,https://www.cdc.gov//dpdx/echinococcosis/images/3/Emultilocularis_liver_BAM2.jpg
+12,Flatworm,Tapeworms,Echinococcus,Echinococcus multilocularis,Cyst,Liver,Em_cyst1,https://www.cdc.gov//dpdx/echinococcosis/images/3/Em_cyst1.jpg
+13,Flatworm,Tapeworms,Echinococcus,Echinococcus multilocularis,Cyst,Liver,Em_cyst_tri,https://www.cdc.gov//dpdx/echinococcosis/images/3/Em_cyst_tri.jpg
+14,Flatworm,Tapeworms,Echinococcus,Echinococcus granulosus,Adult,Intestinal,Eg_adult_labels,https://www.cdc.gov//dpdx/echinococcosis/images/5/Eg_adult_labels.jpg
+15,Flatworm,Tapeworms,Echinococcus,Echinococcus granulosus,Scolex,Intestinal,Egranulosus_scolex_stained_BAM.jpg,https://www.cdc.gov//dpdx/echinococcosis/images/5/Egranulosus_scolex_stained_BAM.jpg

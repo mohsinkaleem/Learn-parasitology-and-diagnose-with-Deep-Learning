@@ -1,0 +1,14 @@
+,phylum,class,genus,species,form,sample,image_name,image_url
+0,Apicomplexa,Conoidasida,Toxoplasma,Toxoplasma gondii,Trophozoites,Mouse,T_gondii_tachy.jpg,https://www.cdc.gov//dpdx/toxoplasmosis/images/1/T_gondii_tachy.jpg
+1,Apicomplexa,Conoidasida,Toxoplasma,Toxoplasma gondii,Cyst,Brain tissue,T_gondii_cyst_brain.jpg,https://www.cdc.gov//dpdx/toxoplasmosis/images/2/T_gondii_cyst_brain.jpg
+2,Apicomplexa,Conoidasida,Toxoplasma,Toxoplasma gondii,Cyst,Brain tissue,T_gondii_cyst_brain2.jpg,https://www.cdc.gov//dpdx/toxoplasmosis/images/2/T_gondii_cyst_brain2.jpg
+3,Apicomplexa,Conoidasida,Toxoplasma,Toxoplasma gondii,Cyst,Brain tissue,T_gondii_cyst_unstained.jpg,https://www.cdc.gov//dpdx/toxoplasmosis/images/3/T_gondii_cyst_unstained.jpg
+4,Apicomplexa,Conoidasida,Toxoplasma,Toxoplasma gondii,Cyst,Wet mount,T_gondii_oocyst_sporu.jpg,https://www.cdc.gov//dpdx/toxoplasmosis/images/4/T_gondii_oocyst_sporu.jpg
+5,Apicomplexa,Conoidasida,Toxoplasma,Toxoplasma gondii,Oocysts,Wet mount,T_gondii_DIC_sporu_100X1.jpg,https://www.cdc.gov//dpdx/toxoplasmosis/images/4/T_gondii_DIC_sporu_100X1.jpg
+6,Apicomplexa,Conoidasida,Toxoplasma,Toxoplasma gondii,Oocysts,Wet mount,T_gondii_oocyst_upsporu.jpg,https://www.cdc.gov//dpdx/toxoplasmosis/images/5/T_gondii_oocyst_upsporu.jpg
+7,Apicomplexa,Conoidasida,Toxoplasma,Toxoplasma gondii,Oocysts,Wet mount,T_gondii_DIC_unsporu_100X1.jpg,https://www.cdc.gov//dpdx/toxoplasmosis/images/5/T_gondii_DIC_unsporu_100X1.jpg
+8,Apicomplexa,Conoidasida,Toxoplasma,Toxoplasma gondii,Oocysts,Fecal,T_gondii_ooycst_fecalfloa.jpg,https://www.cdc.gov//dpdx/toxoplasmosis/images/5/T_gondii_ooycst_fecalfloa.jpg
+9,Apicomplexa,Conoidasida,Toxoplasma,Toxoplasma gondii,Oocysts,Fecal,T_gondii_ooycst_fecalfloat2.jpg,https://www.cdc.gov//dpdx/toxoplasmosis/images/5/T_gondii_ooycst_fecalfloat2.jpg
+10,Apicomplexa,Conoidasida,Toxoplasma,Toxoplasma gondii,Cyst,Eye,Toxo_ocular.jpg,https://www.cdc.gov//dpdx/toxoplasmosis/images/7/Toxo_ocular.jpg
+11,Apicomplexa,Conoidasida,Toxoplasma,Toxoplasma gondii,Cyst,Eye,Congen_Toxo_ocular2.jpg,https://www.cdc.gov//dpdx/toxoplasmosis/images/7/Congen_Toxo_ocular2.jpg
+12,Apicomplexa,Conoidasida,Toxoplasma,Toxoplasma gondii,Cyst,Eye,Congen_Toxo_ocular.jpg,https://www.cdc.gov//dpdx/toxoplasmosis/images/7/Congen_Toxo_ocular.jpg

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
+    <style>
+        .card-horizontal {
+            display: flex;
+            flex: 1 1 auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- http://127.0.0.1:5000/ -->
+
+
+    <div class="container">
+        <h1>Parasitology classification</h1>
+        <br>
+        <form action="{{url_for('results')}}" method="post" enctype="multipart/form-data">
+            <div class="form-row align-items-center">
+
+                <div class="col-auto">
+                    <label for="image">
+                        <h4>Upload the images :</h4>
+                    </label>
+                    <input type="file" name="image" class="form-control-file" id="image" multiple>
+                    <!-- <button type="submit">Click to know</button> -->
+
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary m-2">Get Results</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="container my-4">
+        <h2>Prediction Results:</h2>
+        <!-- {{images}} -->
+        {%for path,name,data in images%}
+        <!-- {{name}} -->
+
+        <div class="row">
+            <div class="col-12 mt-3">
+                <div class="card">
+                    <div class="card-horizontal">
+                        <div class="img-square-wrapper">
+                            <img class="" src="{{path}}" alt="{{name}}">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">File name : {{name}}</h5>
+                            <div class="card-text">
+                                <ul>
+                                    <li>Phylum : {{data[0]}}</li>
+                                    <li>Class : {{data[1]}}</li>
+                                    <li>Species : {{data[2]}}</li>
+                                    <li>Forms : {{data[3]}}</li>
+                                    <li>Sample : {{data[4]}}</li>
+                                </ul>
+
+
+                            </div>
+                            <!-- <p>{{data[0]}}</p> -->
+                        </div>
+                    </div>
+                    <!-- <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        {%endfor%}
+    </div>
+
+</body>
+
+</html>
